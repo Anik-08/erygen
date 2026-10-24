@@ -5,10 +5,11 @@ from app.config import ELEXON_BASE_URL, REQUEST_TIMEOUT
 
 def _get_json(url: str, params: dict) -> dict | list:
     try:
+        timeout = int(REQUEST_TIMEOUT) if REQUEST_TIMEOUT is not None else 60
         response = requests.get(
             url,
             params=params,
-            timeout=REQUEST_TIMEOUT,
+            timeout=timeout,
         )
         response.raise_for_status()
         return response.json()
