@@ -93,8 +93,8 @@ npm run dev
 Then go to http://localhost:3000
 
 ## Live demo
-- Frontend (Vercel): [https://energy-gen.vercel.app](https://energy-gen.vercel.app)
-- Backend (Heroku): [https://energy-gen-api.herokuapp.com](https://energy-gen-api.herokuapp.com)
+- Frontend (Vercel): [https://erygen-gzjx.vercel.app/](https://erygen-gzjx.vercel.app/)
+- Backend (Vercel): [https://erygen.vercel.app/](https://erygen.vercel.app/)]
 
 ## About
 Just pick a start/end date and a forecast publish time on the dashboard. It'll show actual vs forecasted wind generation, plus MAE, RMSE, bias and how many time slots matched up.
