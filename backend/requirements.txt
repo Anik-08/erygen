@@ -1,0 +1,10 @@
+
+fastapi
+uvicorn[standard]
+requests
+pandas
+numpy
+pydantic-settings
+python-dotenv
+pytest
+httpx
