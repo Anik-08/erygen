@@ -1,4 +1,3 @@
-
 from datetime import datetime
 from typing import Optional
 from pydantic import BaseModel
@@ -6,7 +5,6 @@ from pydantic import BaseModel
 class HealthResponse(BaseModel):
     status: str
     service: str
-
 
 class WindMetrics(BaseModel):
     mae_mw: Optional[float] = None
@@ -16,7 +14,6 @@ class WindMetrics(BaseModel):
     forecast_periods: int
     actual_periods: int
     matching_note: str
-
 
 class WindComparisonRow(BaseModel):
     startTime: datetime
